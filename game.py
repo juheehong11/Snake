@@ -17,7 +17,7 @@ class Direction(Enum):
 Point = namedtuple('Point', 'x, y')  # namedtuple acts as a 'lightweight' class
 
 BLOCK_SIZE = 20
-SPEED = 20
+SPEED = 60 # for human controlled game, SPEED=20 recommended; for agent controlled game, SPEED>=40 recommended
 
 # RGB colours
 WHITE = (255, 255, 255)
